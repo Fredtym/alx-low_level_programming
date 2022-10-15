@@ -2,10 +2,13 @@
 #include <time.h>
 #include <stdlib.h>
 
+/*More headers go here*/
+
 /**
- * main - Entry
+ * main - prints outs a random number and states whether
+ * it is a postive or negative nummber
  *
- * Return : Always
+ * Return : Always 0
  */
 int main(void)
 {
