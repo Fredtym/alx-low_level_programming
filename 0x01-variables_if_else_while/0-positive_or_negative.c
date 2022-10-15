@@ -2,7 +2,11 @@
 #include <time.h>
 /* more headers goes there */
 
-/* Tells if a number is positive or not */
+/**
+ * main - Entry
+ *
+ * Return : Always
+ */
 int main(void)
 {
 	int n;
