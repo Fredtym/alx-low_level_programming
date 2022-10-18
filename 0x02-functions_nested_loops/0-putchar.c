@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * main-prints out putchar
+ * main - check the code
  *
- * Return:Always 0
+ * Return: Always 0.
  */
-
 int main(void)
 {
 	_putchar('_');
@@ -20,4 +18,3 @@ int main(void)
 
 	return (0);
 }
-
