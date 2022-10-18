@@ -1,26 +1,22 @@
-#include<stdio.h>
-#include<string.h>
-
+#include "main.h"
 
 /**
  * main-prints out putchar
  *
- * Return Always 0
+ * Return:Always 0
  */
 
 int main(void)
 {
-	char arr[] = "_putchar";
-	int len = strlen(arr);
-	int i;
-	for (i = 0; i < len; i++)
-	{
-			putchar(arr[i]);
-
-
-	}
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
