@@ -1,21 +1,25 @@
 #include "main.h"
 
 /**
- * print_chessboard - prints the chessboard
- * @a: pointer to pieces to print
+ * _strpbrk - function that searches a string for any of a set of bytes
  *
- * Return: void
+ * @s:first occurrence in the string
+ *
+ * @accept: matches one of the bytes, or @NULL if no such byte
+ *
+ * Return: a pointer to the byte
  */
-void print_chessboard(char (*a)[8])
+char *_strpbrk(char *s, char *accept)
 {
-	int i, j;
-
-	for (i = 0; i < 8; i++)
-	{
-		for (j = 0; j < 8; j++)
+	int i;
+		while (*s)
 		{
-			_putchar(a[i][j]);
+			for (i = 0; accept[i]; i++)
+			{
+				if (*s == accept[i])
+					return (s);
+			}
+			s++;
 		}
-		_putchar('\n');
-	}
+	return (NULL);
 }
