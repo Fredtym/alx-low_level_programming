@@ -1,2 +1,1 @@
-This is a README file for variadic functions.
-
+The main Readme file.
